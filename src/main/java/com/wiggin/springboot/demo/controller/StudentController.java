@@ -24,4 +24,10 @@ public class StudentController {
         System.out.println("这个是V1版");
         return service.queryById(id);
     }
+
+    @RequestMapping(value = "/getStudent")
+    public Student getStudent(int id2){
+        System.out.println("这个是V1版");
+        return service.queryById(id2);
+    }
 }
