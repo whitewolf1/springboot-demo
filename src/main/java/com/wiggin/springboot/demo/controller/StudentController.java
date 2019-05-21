@@ -35,6 +35,7 @@ public class StudentController {
     public Student getStudent3(int id3){
         System.out.println("这个是dev版");
         System.out.println("这是master");
+        System.out.println("这个是dev2版");
         return service.queryById(id3);
     }
 }
