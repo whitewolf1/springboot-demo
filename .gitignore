@@ -1,0 +1,6 @@
+target
+.idea
+springboot-demo.iml
+*.log
+#/error.log
+!/error.log
